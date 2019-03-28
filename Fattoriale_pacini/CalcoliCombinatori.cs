@@ -8,6 +8,16 @@ namespace EquazioniLibrary
 {
     public class CalcoliCombinatori
     {
-        
+        static public long Fattoriale(long N1)
+        {
+            long fattoriale = 1;
+
+            for (int i = 1; i <= N1; i++)
+            {
+                fattoriale = fattoriale * i;
+            }
+
+            return fattoriale;
+        }
     }
 }
